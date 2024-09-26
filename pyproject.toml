@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "geo-graph-gen"
+version = "0.1.0"
+description = "Python generated geo based property graphs from OpenStreetMap and DEM data"
+authors = ["alenrajsp <alen.rajsp@um.si>"]
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+overpy = "^0.6"
+redis = "^5.0.8"
+msgpack = "^1.0.2"
+u-msgpack-python = "^2.7.1"
+py2neo = "^2021.1.5"
+sport-activities-features = "^0.4.2"
+dotmap = "^1.3.26"
+pymongo = "^4.0.1"
+requests = "^2.31.0"
+line-profiler-pycharm = "^1.1.0"
+osmium = "^3.7.0"
+folium = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
